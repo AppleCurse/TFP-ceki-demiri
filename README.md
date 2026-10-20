@@ -2,7 +2,8 @@
 
 **Kapasite ve İhtiyaç Eşleştirme Sistemi — Kuruluş ve Uygulama Ana Planı v1.0**
 
-> Bir proje değil, kurulacak bir işletme ve sistem. Sözleşme bu yolculuğun başlangıcı değil, belirli aşamalarda ortaya çıkacak sonuçlarından biri.
+> **Yük ortakken aşılır. Gel, ortak ol.**
+> Çeki demirinden ehliyet istenmez — sağlamlığına bakılır, netliğine bakılır.
 
 [![Çalışma Taslağı](https://img.shields.io/badge/statü-çalışma_taslağı_v1.0-amber)](#)
 [![Teyit Gerekli](https://img.shields.io/badge/teyit_gerekli-9_madde-red)](#)
@@ -18,12 +19,18 @@ Bu repo, **TFP / Çeki Demiri** modelini bir yazılım projesi olarak değil, a�
 
 > TFP eşleştirme ve koordinasyon katmanıdır. Para, çek, tapu veya mal teslim almaz. Vekâleten işlem yapmaz, borç vermez, banka onayı garantilemez. Taraflar kendi adlarına hareket eder.
 
+**Çeki Demiri felsefesi:**
+
+> Hukuki sorumluluğumuz yok, insani sorumluluk var. Biz karar mercii değiliz, kontrol mercii'yiz. İşlem bankada, limit sahibinin hesabında resmi olarak yapılır; TFP'den iki kişi yerinde kontrol eder. Biz belge kiralamıyoruz, hatır çeki dağıtmıyoruz — doğru insanı doğru insanla buluşturuyoruz.
+> Ayrıntı: `docs/00-CEKI-DEMIRI-MANIFESTO.md`
+
 ---
 
 ## 📁 Doküman Yapısı
 
 ```
 docs/
+├── 00-CEKI-DEMIRI-MANIFESTO.md            # Manifesto — yük ortaklığı, kontrol mercii, 3 kural
 ├── TFP-Ana-Proje-Dosyasi-v1.0.md          # Ana belge — 15 bölüm, 10 soru, 9 teyit
 ├── Operasyon-Akisi-ve-Gorev-Sinirlari.md   # 10 adım, durum makinesi, rol matrisi
 ├── Faaliyet-Sinirlari-ve-Uyum-Kontrol-Listesi.md  # KVKK, şirket yapısı, sözleşme seti
@@ -51,7 +58,7 @@ web/                                       # Sistem önizleme — Next.js
 | Aşama | Çıktı | Durum |
 |---|---|---|
 | **A. Modeli Sabitleme** | Ana proje tanımı ve varsayım listesi | ✅ Bu repo ile başlatıldı |
-| **B. Süreç Tasarımı** | İş akışı ve devre değerlendirme kartları | 🔲 Bekliyor |
+| **B. Süreç Tasarımı** | İş akışı ve devre değerlendirme kartları | ✅ Akış + kartlar hazır, pilotla teyit |
 | **C. Hukuki / Mali Ön İnceleme** | Faaliyet ve kuruluş kontrol listesi | 🔲 Bekliyor |
 | **D. Marka ve Kurumsal Yapı** | İsim mimarisi ve kuruluş kararı | 🔲 Bekliyor |
 | **E. Pilot Seçimi** | Pilot kapsamı, ölçütler, durdurma koşulları | 🔲 Bekliyor |
@@ -73,7 +80,7 @@ npm run dev   # http://localhost:3000
 
 Önizleme iki mod içerir:
 
-- **Ana Plan** — Model, operasyon akışı, devreler, MVP, yol haritası, belgeler
+- **Ana Plan** — Manifesto, model, operasyon akışı, devreler, MVP, yol haritası, belgeler
 - **Sistem Önizleme** — Kapasite/ihtiyaç kayıtları, eşleşme, işlem takibi, doğrulama paneli (demo verilerle)
 
 ---
@@ -89,11 +96,12 @@ npm run dev   # http://localhost:3000
 
 ## 📖 Hızlı Başlangıç
 
-1. `docs/TFP-Ana-Proje-Dosyasi-v1.0.md` — ana belgeyi oku (15 bölüm)
-2. `docs/Operasyon-Akisi-ve-Gorev-Sinirlari.md` — operasyon akışını incele
-3. `docs/devre-kartlari/` — pilot adaylarını karşılaştır
-4. `web` önizlemesini çalıştır — sistemi interaktif gör
+1. `docs/00-CEKI-DEMIRI-MANIFESTO.md` — önce ruhu oku
+2. `docs/TFP-Ana-Proje-Dosyasi-v1.0.md` — ana belgeyi oku (15 bölüm)
+3. `docs/Operasyon-Akisi-ve-Gorev-Sinirlari.md` — operasyon akışını incele
+4. `docs/devre-kartlari/` — pilot adaylarını karşılaştır
+5. `web` önizlemesini çalıştır — sistemi interaktif gör
 
 ---
 
-*TFP Ana Proje Dosyası v1.0 • Çalışma Taslağı • 20 Ekim 2026*
+*TFP Ana Proje Dosyası v1.0 • Çalışma Taslağı • 21 Ekim 2026*

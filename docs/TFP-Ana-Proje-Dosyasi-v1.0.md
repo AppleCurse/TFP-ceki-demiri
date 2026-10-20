@@ -60,6 +60,23 @@ Bu dosya, TFP / Çeki Demiri modelini bir yazılım projesi değil, **kurulacak 
 
 Bu sınır, kuruluş planının temelidir. Şirketin hukuki statüsü ve yürütülecek faaliyetlerin izin gereklilikleri ayrıca doğrulanacaktır.
 
+### 1.4. Çeki Demiri Felsefesi: Yük Ortakken Aşılır
+
+> *Çeki demirinden ehliyet istenmez. Araba mı sürecek bu? Sağlamlığına bakılır, netliğine bakılır.*
+> Manifesto için bkz: `docs/00-CEKI-DEMIRI-MANIFESTO.md`
+
+Sahadaki gerçek şudur: Birinin limiti var, birinin elinde çeki var, birinin malı var, birinin tırında boşluk var, biri müteahhit ama belgesi yetmiyor. Piyasa bunlara "belgeni kirala, hatır çeki ver" diyor.
+
+Biz diyoruz ki: **Gel ortak ol kardeşim.**
+
+Bu sistem evrak kiralama ofisi değildir. Hatır çeki masası değildir. **Doğru insanı doğru insanla buluşturma ve entegre etme** işidir.
+
+Buradaki ayrım kritiktir:
+
+> **Hukuki sorumluluğumuz yok ama insani sorumluluğumuz var. Biz karar mercii değiliz, kontrol mercii'yiz.**
+
+İşlem bankada, resmi, limit sahibinin hesabında olur. Bizden iki kişi gider, orada durur, kontrol eder. Onayı banka verir. Çeki demiri koparsa tır savrulur, o yüzden kopmayacak.
+
 ### 1.3. Neden Şimdi? — Çözülen Sorun
 
 | Bugünkü Durum | Sorun |
@@ -344,9 +361,15 @@ Detay için: `docs/Marka-Mimarisi.md`
 
 ## 12. Kullanılabilecek Temel Müşteri Açıklaması
 
+**Sahada (Çeki Demiri diliyle):**
+
+> Yük ortakken aşılır. Limitiniz var ama işiniz mi yok? Elinizde çek mi var? Malınız depoda mı bekliyor? Tırınız mı boş? Müteahhitlik / mühendislik işiniz var ama belgeniz mi yetmiyor? Gel, ortak ol. Biz belge kiralamıyoruz, hatır çeki dağıtmıyoruz — doğru insanı doğru insanla buluşturuyoruz. İşlem bankada, limiti olanın hesabında resmi olarak döner; bizden iki kişi gelir, yerinde kontrol ederiz. Biz karar mercii değiliz, kontrol mercii'yiz.
+
+**Hukuki çerçeve (zorunlu, birlikte kullanılacak):**
+
 > **Çeki Demiri, işletmelerin gerçek ticari kapasite ve ihtiyaçlarını eşleştirmeye yardımcı olur. Para, çek, tapu veya mal bize teslim edilmez; tarafların yerine vekâleten işlem yapmayız. Taraflar işlemlerini kendi adlarına ve ilgili banka ya da kurumun onayına bağlı olarak yürütür. Eşleşme; kredi, kazanç, banka onayı veya işlem sonucu garantisi değildir. Hizmet bedeli varsa, işlem öncesinde açıkça bildirilen koşullara göre uygulanır.**
 
-Bu metin, pilot öncesi kullanılabilecek **tek onaylı müşteri açıklamasıdır.** Her devreye özel açıklamalar, bu çerçeveyi daraltabilir ama genişletemez.
+Bu metin, pilot öncesi kullanılabilecek **tek onaylı müşteri açıklamasıdır.** Her devreye özel açıklamalar, bu çerçeveyi daraltabilir ama genişletemez. Sahadaki sade dil (üstteki paragraf) hukuki çerçevenin yerine geçmez, birlikte kullanılır.
 
 ---
 
@@ -416,6 +439,7 @@ Bu metin, pilot öncesi kullanılabilecek **tek onaylı müşteri açıklamasıd
 
 | Ek | Belge | Yol |
 |---|---|---|
+| Ek-0 | Çeki Demiri Manifestosu (işin ruhu ve dil) | `docs/00-CEKI-DEMIRI-MANIFESTO.md` |
 | Ek-A | Operasyon Akışı ve Görev Sınırları (detay) | `docs/Operasyon-Akisi-ve-Gorev-Sinirlari.md` |
 | Ek-B | Faaliyet Sınırları ve Uyum Kontrol Listesi | `docs/Faaliyet-Sinirlari-ve-Uyum-Kontrol-Listesi.md` |
 | Ek-C | Marka Mimarisi ve Tanıtım Metinleri | `docs/Marka-Mimarisi.md` |

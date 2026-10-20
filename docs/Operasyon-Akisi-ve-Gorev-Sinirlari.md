@@ -156,11 +156,17 @@ Onay alınmadan harici işleme geçilmez.
 
 ### 08 — Harici İşlem (TFP’nin Taraf Olmadığı Aşama)
 
+**Bu aşamanın kuralı nettir: İşlem bankada olur, resmi olur.**
+
 - Sözleşme, ödeme, banka kredisi, noter, tapu, gümrük, taşıma sözleşmesi vb. **tarafların ve ilgili kurumların** kendi prosedürlerine göre yürütülür.
-- TFP bu aşamada **gözlemci ve kayıt tutucudur**, taraf değildir.
+- Para/nakit akışı **limit sahibinin kendi banka hesabında** yürütülür. TFP’nin havuzuna, TFP’nin hesabına veya emanetine hiçbir tutar girmez.
+- TFP bu aşamada **karar mercii değil, kontrol mercii'dir**: **TFP'den iki kişi** işlemin başında/işlem yerinde bulunur; limitin gerçekliğini, malın/deponun/tırın varlığını, belgelerin tutarlılığını **yerinde görerek** teyit eder. Onay mercii banka, karar mercii taraflardır.
+- TFP bu aşamada **gözlemci, yerinde kontrol eden ve kayıt tutucudur**, taraf değildir.
 - Taraflar isterlerse TFP’ye durum güncellemesi sağlar; TFP bu bilgiyi kaydeder.
 
-> **Sınır:** TFP bu aşamada para/belge teslim almaz, vekâleten imza atmaz, kefil olmaz.
+> **Sınır:** TFP bu aşamada para/belge teslim almaz, vekâleten imza atmaz, kefil olmaz, borç vermez, banka onayı garantilemez.
+>
+> **Ama not:** Hukuki sorumluluk yoktur; **insani sorumluluk vardır.** Çeki demiri koparsa tır savrulur — yerinde kontrol bu yüzden formalite değil, yükümlülüktür.
 
 ---
 

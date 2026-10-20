@@ -144,14 +144,19 @@ export default function Page() {
                   </div>
 
                   <h1 className="mt-5 text-[32px] sm:text-[42px] lg:text-[44px] font-extrabold leading-[0.95] tracking-tight text-tfp-navy">
-                    Bir proje değil,<br />
-                    <span className="text-tfp-orange">kurulacak bir işletme</span><br />
-                    ve sistem.
+                    Yük ortakken<br />
+                    <span className="text-tfp-orange">aşılır.</span><br />
+                    Gel, ortak ol.
                   </h1>
 
                   <p className="mt-5 text-[15px] leading-6 text-tfp-muted max-w-[560px]">
-                    TFP, işletmelerin gerçek kapasite ve ihtiyacını sistematik biçimde eşleştirir. Sözleşme bu yolculuğun başlangıcı değil — belirli aşamalarda ortaya çıkacak sonuçlarından biridir. Önce model sabitlenir, sonra şirket kurulur, en son yazılım kodlanır.
+                    Birinin limiti var, birinin elinde çeki var, birinin malı var, birinin tırı boş. Biz belge kiralamıyoruz, hatır çeki dağıtmıyoruz — doğru insanı doğru insanla buluşturuyoruz. Hukuki sorumluluğumuz yok, insani sorumluluğumuz var: karar mercii değil, kontrol mercii'yiz.
                   </p>
+
+                  <div className="mt-4 inline-flex items-center gap-2 bg-tfp-gray border border-tfp-border rounded-full px-3.5 py-1.5 text-[11px] font-mono text-tfp-muted">
+                    <span className="w-1.5 h-1.5 bg-tfp-orange rounded-full" />
+                    Çeki demirinden ehliyet istenmez — sağlamlığına bakılır.
+                  </div>
 
                   <div className="mt-7 flex flex-wrap gap-3">
                     <button onClick={() => scrollTo("model")} className="px-6 py-3 bg-tfp-navy text-white rounded-full text-sm font-semibold hover:bg-tfp-navyLight transition">
@@ -199,7 +204,10 @@ export default function Page() {
                     <div className="mt-6 bg-amber-500/15 border border-amber-500/30 rounded-xl p-3.5">
                       <div className="text-xs font-bold text-amber-200 flex items-center gap-2">⚠ Değişmeyecek Temel Sınır</div>
                       <p className="text-xs leading-5 text-white/80 mt-1.5">
-                        TFP eşleştirme ve koordinasyon katmanıdır. Para, çek, tapu veya mal teslim almaz. Vekâleten işlem yapmaz, borç vermez, banka onayı garantilemez. Taraflar kendi adlarına hareket eder.
+                        TFP eşleştirme ve koordinasyon katmanıdır. Para, çek, tapu veya mal teslim almaz. Vekâleten işlem yapmaz, borç vermez, banka onayı garantilemez. İşlem bankada, limit sahibinin hesabında yapılır; TFP’den iki kişi yerinde kontrol eder.
+                      </p>
+                      <p className="text-xs leading-5 text-amber-100/90 mt-2 font-semibold">
+                        Karar mercii değil, kontrol mercii.
                       </p>
                     </div>
                   </div>
@@ -322,7 +330,7 @@ export default function Page() {
                     { n: "05", t: "Eşleştirme", d: "Gerekçeli öneri", who: "Sistem + Operasyon" },
                     { n: "06", t: "Taraf Onayı", d: "Onay / ret", who: "Taraflar" },
                     { n: "07", t: "Bilgilendirme", d: "Sınırlar + ücret", who: "TFP" },
-                    { n: "08", t: "Harici İşlem", d: "Sözleşme / ödeme", who: "Taraflar + Kurum" },
+                    { n: "08", t: "Harici İşlem", d: "Bankada, limit sahibinin hesabında", who: "Taraflar + Banka + 2 TFP kontrol" },
                     { n: "09", t: "Sonuç Kaydı", d: "Tamamlandı / değil", who: "TFP Operasyon" },
                     { n: "10", t: "Kapanış", d: "Fatura + arşiv", who: "TFP" },
                   ].map((s, i) => (
@@ -391,9 +399,9 @@ export default function Page() {
                     },
                     {
                       title: "08 — Harici İşlem",
-                      desc: "Sözleşme, ödeme, banka, noter, tapu işlemleri tarafların ve ilgili kurumların prosedürüne göre yürütülür.",
-                      checks: ["TFP gözlemci ve kayıt tutucudur", "Para/belge TFP’ye teslim edilmez", "Taraflar kendi adlarına hareket eder"],
-                      not: "TFP taraf değil — vekâleten imza atmaz, kefil olmaz.",
+                      desc: "İşlem bankada, limit sahibinin hesabında resmi olarak yürütülür. TFP’den iyi ki iki kişi yerinde kontrol eder.",
+                      checks: ["Karar mercii değil, kontrol mercii", "Para/belge TFP’ye teslim edilmez", "Yerinde kontrol: limit, mal, belge"],
+                      not: "TFP taraf değil — vekâleten imza atmaz, kefil olmaz. Hukuki sorumluluk yok, insani sorumluluk var.",
                     },
                     {
                       title: "09 — Sonuç Kaydı",
@@ -420,7 +428,7 @@ export default function Page() {
                         "Aday eşleşme, skor ve gerekçe metniyle birlikte üretilir. Gerekçesiz eşleşme yok.",
                         "Taraflara yalnızca gerekli bilgi gösterilir. Onay / ret / revizyon toplanır.",
                         "Taraflara yazılı bilgilendirme: TFP’nin sınırları, dış kurum onayları, ücret koşulu.",
-                        "Sözleşme, ödeme, banka, noter, tapu işlemleri tarafların ve ilgili kurumların prosedürüne göre yürütülür.",
+                        "Sözleşme, ödeme, banka işlemleri limit sahibinin kendi hesabında resmi olarak yürütülür; TFP’den iki kişi yerinde kontrol eder.",
                         "Tamamlandı / kısmen tamamlandı / sonuçlanmadı / iptal — her biri dayanakla kayıt altına alınır.",
                         "Ücret tetikleyicisi gerçekleştiyse fatura düzenlenir, tahsilat takibi yapılır, kayıtlar denetim iziyle saklanır.",
                       ][activeStep]}</p>
@@ -433,7 +441,7 @@ export default function Page() {
                           ["Eşleşme skoru (ağırlıklandırma)","Gerekçe metni zorunlu","Manuel eşleştirme (operasyon yetkili)"],
                           ["Onay öncesi maskeleme (ticari sır koruması)","Her iki taraf onaylarsa ilerlenir","Ret gerekçesi kayıtlı"],
                           ["Sorumluluk sınırı yazılı","Ücret tetikleyicisi açık","KVKK paylaşım bilgisi"],
-                          ["TFP gözlemci ve kayıt tutucudur","Para/belge TFP’ye teslim edilmez","Taraflar kendi adlarına hareket eder"],
+                          ["Karar mercii değil, kontrol mercii","İşlem limit sahibinin hesabında","TFP’den iki kişi yerinde kontrol"],
                           ["Sonuç + dayanak (beyan / belge)","Tarih ve sorumlu kayıtlı","Başarısızlık sebebi analiz edilir"],
                           ["Eşleşme ≠ ücret ayrımı","Fatura ve tahsilat durumu takibi","Denetim izi + arşiv (10 yıl)"],
                         ][activeStep].map((c) => (

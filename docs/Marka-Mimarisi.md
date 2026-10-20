@@ -60,6 +60,14 @@ Türk Finansal Paydaşlık (TFP)
 
 > **Çeki Demiri, işletmelerin atıl kapasitesini ve doğrulanmış ihtiyacını aynı sistemde buluşturan bir eşleştirme hizmetidir. Tarafları doğru bilgiyle bir araya getirir, süreci düzenler — para veya mal bize teslim edilmez, taraflar kendi adlarına işlem yapar.**
 
+**Ana slogan:** *Yük ortakken aşılır. Gel, ortak ol.*
+
+**Sahadaki kısa hali:**
+
+> Limitiniz var, işiniz yok mu? Elinizde çek, depoda mal, boş tır mı var? Belgeniz yetmiyor mu? Gel ortak ol. Biz doğru insanı doğru insanla buluşturuyoruz. İşlem bankada resmi olur, bizden iki kişi gelir kontrol eder. Karar mercii değil, kontrol mercii.
+
+> Kullanım kuralı: Slogan ve saha dili her yerde kullanılabilir; hukuki çerçeve (Ana Dosya §12) pazarlama metinlerinin sonuna eklenir, değiştirilmeden korunur.
+
 ### 3.2. Orta Tanıtım (1 paragraf — web sitesi / broşür)
 
 > İşletmelerin en değerli kaynağı kullanılmayan kapasitesidir: boş dönen araç, atıl üretim hattı, dolmayan depo. Aynı anda başka bir işletme tam da o kapasiteye ihtiyaç duyuyor olabilir. Çeki Demiri, bu iki tarafı sistematik biçimde eşleştirir. Kapasite ve ihtiyaç kayıt altına alınır, doğrulama durumu izlenir, uygun eşleşmeler gerekçesiyle birlikte sunulur. Eşleşme sonrası taraflar doğrudan görüşür, işlemi kendi adlarına ve ilgili kurumların onayıyla yürütür. Çeki Demiri işlem garantisi vermez — süreci şeffaf ve izlenebilir kılar.
@@ -72,10 +80,13 @@ Bkz. Ana Proje Dosyası §1 ve §3.
 
 | Hedef Kitle | Dil Tonu | Anahtar Kelimeler |
 |---|---|---|
-| KOBİ sahipleri | Samimi, pratik, güven veren | Kapasite, eşleşme, doğrulanmış, kendi adınıza |
+| KOBİ sahipleri | Samimi, pratik, güven veren | Kapasite, eşleşme, doğrulanmış, kendi adınıza, ortak ol |
 | Lojistik / üretim yöneticileri | Teknik, somut, süreç odaklı | Güzergâh, miktar, zaman, doğrulama, durum takibi |
+| Müteahhit / mühendis (belge yetersiz) | Saygılı, yol gösteren — asla suçlayıcı | Ortaklık, ek belgeyle güç, birlikte yapalım |
 | Kurumsal / banka ilişkileri | Resmi, temkinli, sınırları net | Koordinasyon, kayıt, denetim izi, sorumluluk sınırı |
 | Yatırımcı / paydaş | Vizyoner ama kanıta dayalı | Pilot, ölçüt, durdurma koşulu, aşamalı büyüme |
+
+**Sakıncalı ifadeler (asla kullanılmaz):** "belgeni kirala", "hatır çeki", "garanti veririz", "kredi onayınız çıkar", "bizim havuzda para tutarız". Bunların yerine: "gel ortak ol", "kontrol merciiyiz", "işlem bankada resmi olur".
 
 ---
 
