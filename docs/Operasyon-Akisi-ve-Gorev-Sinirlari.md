@@ -164,6 +164,8 @@ Onay alınmadan harici işleme geçilmez.
 - TFP bu aşamada **gözlemci, yerinde kontrol eden ve kayıt tutucudur**, taraf değildir.
 - Taraflar isterlerse TFP’ye durum güncellemesi sağlar; TFP bu bilgiyi kaydeder.
 
+**Gün Sonu Kuralı (17:30):** İşlem mesai bitimine yetişmezse durulur; taraflar kendi evrakıyla bankadan ayrılır (çeki olan çekiyle, limiti olan limitiyle). TFP personeli hiçbir evrakı refakat etmez veya emanet almaz. Ertesi sabah aynı masada yeniden buluşulur. Gece için kimsede emanet yoktur.
+
 > **Sınır:** TFP bu aşamada para/belge teslim almaz, vekâleten imza atmaz, kefil olmaz, borç vermez, banka onayı garantilemez.
 >
 > **Ama not:** Hukuki sorumluluk yoktur; **insani sorumluluk vardır.** Çeki demiri koparsa tır savrulur — yerinde kontrol bu yüzden formalite değil, yükümlülüktür.

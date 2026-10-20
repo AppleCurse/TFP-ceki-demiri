@@ -31,6 +31,7 @@ Bu repo, **TFP / Çeki Demiri** modelini bir yazılım projesi olarak değil, a�
 ```
 docs/
 ├── 00-CEKI-DEMIRI-MANIFESTO.md            # Manifesto — yük ortaklığı, kontrol mercii, 3 kural
+├── Kararlar-Defteri.md                    # Alınan kararlar: durum + işlendiği yer (kaybolma engeli)
 ├── TFP-Ana-Proje-Dosyasi-v1.0.md          # Ana belge — 15 bölüm, 10 soru, 9 teyit
 ├── Operasyon-Akisi-ve-Gorev-Sinirlari.md   # 10 adım, durum makinesi, rol matrisi
 ├── Faaliyet-Sinirlari-ve-Uyum-Kontrol-Listesi.md  # KVKK, şirket yapısı, sözleşme seti

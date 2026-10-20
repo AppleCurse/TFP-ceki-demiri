@@ -440,6 +440,7 @@ Bu metin, pilot öncesi kullanılabilecek **tek onaylı müşteri açıklamasıd
 | Ek | Belge | Yol |
 |---|---|---|
 | Ek-0 | Çeki Demiri Manifestosu (işin ruhu ve dil) | `docs/00-CEKI-DEMIRI-MANIFESTO.md` |
+| Ek-0b | Kararlar Defteri — alınan her karar, durumu ve işlendiği yer | `docs/Kararlar-Defteri.md` |
 | Ek-A | Operasyon Akışı ve Görev Sınırları (detay) | `docs/Operasyon-Akisi-ve-Gorev-Sinirlari.md` |
 | Ek-B | Faaliyet Sınırları ve Uyum Kontrol Listesi | `docs/Faaliyet-Sinirlari-ve-Uyum-Kontrol-Listesi.md` |
 | Ek-C | Marka Mimarisi ve Tanıtım Metinleri | `docs/Marka-Mimarisi.md` |
