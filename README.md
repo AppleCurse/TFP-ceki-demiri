@@ -32,6 +32,10 @@ Bu repo, **TFP / Çeki Demiri** modelini bir yazılım projesi olarak değil, a�
 docs/
 ├── 00-CEKI-DEMIRI-MANIFESTO.md            # Manifesto — yük ortaklığı, kontrol mercii, 3 kural
 ├── Kararlar-Defteri.md                    # Alınan kararlar: durum + işlendiği yer (kaybolma engeli)
+├── Faz1-Masa-Protokolu.md                 # Bankada gün akışı, roller, evrak listesi, 17:30, vaka kağıdı
+├── Hizmet-ve-Gizlilik-Sozlesmesi-Brifi.md # Avukata: anonim eşleşme + 12 ay atlatma kilidi
+├── Avans-Ortaklik-Brifi.md                # Avukata: çek & limit devresi avans çeki kurgusu
+├── Eslestirme-Kriterleri.md               # Eleme valfi, kriter/ağırlık tabloları, eşikler, otomasyon yolu
 ├── TFP-Ana-Proje-Dosyasi-v1.0.md          # Ana belge — 15 bölüm, 10 soru, 9 teyit
 ├── Operasyon-Akisi-ve-Gorev-Sinirlari.md   # 10 adım, durum makinesi, rol matrisi
 ├── Faaliyet-Sinirlari-ve-Uyum-Kontrol-Listesi.md  # KVKK, şirket yapısı, sözleşme seti

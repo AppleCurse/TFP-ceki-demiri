@@ -30,14 +30,14 @@
 | B3 | %5–10 → %1–2 hedef bandı | 🔴 | Ana Dosya §9 zaten "onaylanmış fiyat değildir" der; pilot verisiyle kesinleşir |
 | B4 | **İşlem alt limiti:** altındaki talepler kapıdan kovulmaz, "havuz dışı yönlendirme" (kendi bankasına) | 🟡 | Tutar kararı pilota bağlanır |
 | B5 | **Faizsiz kapı:** murabaha / katılım bankası modeli talep edenler için ayrı yol | 🔴 | Danışman (konuyla ilgili hoca/danışma kurulu) onayı şart; îne satışı değil, gerçek mal + üçüncü taraf / katılım bankası |
-| B6 | **Avans çekihukuki kılıfı:** hatır çeki yok; ortaklık avansı olarak avans çeki, deftere avans işlenir, bankaya teminat | 🔴 | Avukat + mali müşavir onayı olmadan uygulanmaz; arkasında yazılı ortaklık/avans sözleşmesi şart |
+| B6 | **Avans çeki hukuki kılıfı:** hatır çeki yok; ortaklık avansı olarak avans çeki, deftere avans işlenir, bankaya teminat | 🔴 | Brif hazır: `Avans-Ortaklik-Brifi.md` — avukat + mali müşavir onayı şart; arkasında yazılı ortaklık/avans sözleşmesi |
 
 ## C. Operasyon ve Güvenlik Kararları
 
 | # | Karar | Durum | Not |
 |---|---|---|---|
-| C1 | **Anonim eşleşme:** kimlik/telefon, iki taraf Hizmet ve Gizlilik Sözleşmesi imzalamadan açılmaz | 🟡 | Operasyon adım 06'ya 12 ay hüküm eklenecek |
-| C2 | **Atlatma kilidi:** eşleşmeden doğan işlem 12 ay sistem dışında yapılsa dahi hizmet bedeli doğar; fatura karşılığı, tarafların kendi hesabından | 🟡 | Aynı sözleşme maddesi |
+| C1 | **Anonim eşleşme:** kimlik/telefon, iki taraf Hizmet ve Gizlilik Sözleşmesi imzalamadan açılmaz | 🟡 | Brif hazır: `Hizmet-ve-Gizlilik-Sozlesmesi-Brifi.md` — avukat yazacak |
+| C2 | **Atlatma kilidi:** eşleşmeden doğan işlem 12 ay sistem dışında yapılsa dahi hizmet bedeli doğar; fatura karşılığı, tarafların kendi hesabından | 🟡 | Aynı brifte zorunlu madde |
 | C3 | **Giriş filtresi:** VKN/TCKN + faaliyet belgesi, UYAP, KKB/Finnet, mali müşavir ticari ilişki teyidi; tapude TAKBİS | 🟡 | Operasyon adım 02'deki doğrulamalar genişletilecek |
 | C4 | **Olgunluk merdiveni:** yeni paydaş küçük işlemle başlar, 3 başarılı işlemde tavan kalkar ("Demir İmza") | 🟡 | Pilot tasarımıyla belirlenir |
 | C5 | **TTL (ilan süre sınırı):** ilk 6 ay uygulanmaz, önce hacim | ⚪ | Belgede zaten yok; hacim gelince tekrar karar |

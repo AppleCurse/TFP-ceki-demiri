@@ -441,6 +441,9 @@ Bu metin, pilot öncesi kullanılabilecek **tek onaylı müşteri açıklamasıd
 |---|---|---|
 | Ek-0 | Çeki Demiri Manifestosu (işin ruhu ve dil) | `docs/00-CEKI-DEMIRI-MANIFESTO.md` |
 | Ek-0b | Kararlar Defteri — alınan her karar, durumu ve işlendiği yer | `docs/Kararlar-Defteri.md` |
+| Ek-G | Faz 1 Masa Protokolü (bankada gün, evrak, 17:30, vaka kağıdı) | `docs/Faz1-Masa-Protokolu.md` |
+| Ek-H | Sözleşme Brifleri: Hizmet & Gizlilik / Avans & Ortaklık (avukata verilir) | `docs/Hizmet-ve-Gizlilik-Sozlesmesi-Brifi.md`, `docs/Avans-Ortaklik-Brifi.md` |
+| Ek-I | Eşleştirme Kriterleri (eleme valfi, ağırlıklar, eşikler) | `docs/Eslestirme-Kriterleri.md` |
 | Ek-A | Operasyon Akışı ve Görev Sınırları (detay) | `docs/Operasyon-Akisi-ve-Gorev-Sinirlari.md` |
 | Ek-B | Faaliyet Sınırları ve Uyum Kontrol Listesi | `docs/Faaliyet-Sinirlari-ve-Uyum-Kontrol-Listesi.md` |
 | Ek-C | Marka Mimarisi ve Tanıtım Metinleri | `docs/Marka-Mimarisi.md` |
