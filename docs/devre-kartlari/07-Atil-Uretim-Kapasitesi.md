@@ -1,6 +1,6 @@
-# Devre 02 — Atıl Üretim Kapasitesi / Doğrulanmış Sipariş Eşleştirme
+# Devre 07 — Atıl Üretim Kapasitesi / Doğrulanmış Sipariş Eşleştirme
 
-**Durum:** Pilot adayı | **Puan:** Değerlendiriliyor
+**Durum:** Pilot adayı 2 | **Puan:** 31/50 | **Numaralandırma:** Ana Envanter Devre 07 (eski kart no 02 ile karıştırılmamalı — Kararlar Defteri D8)
 
 ---
 

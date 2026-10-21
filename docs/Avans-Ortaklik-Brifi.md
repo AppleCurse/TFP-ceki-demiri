@@ -1,7 +1,7 @@
 # Avans / Ortaklık Sözleşmesi — Avukat Brifi (Çek & Limit Devresi)
 
 > **Statü:** Avukata verilecek **iş brifi**. Sözleşme metni avukattan çıkar; Kararlar Defteri **B6 🔴** (avans çeki kılıfı) bu onaya bağlıdır.  
-> **Kapsam:** Faz 1 — Devre 2 (Çek İskonto & Kredi Limiti).
+> **Kapsam:** Faz 1 — **Devre 01 (Çek İskonto & Kredi Limiti)** (Ana Envanter numaralandırması).
 
 ---
 

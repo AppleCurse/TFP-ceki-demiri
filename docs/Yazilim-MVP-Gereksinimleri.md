@@ -55,6 +55,8 @@
 
 ### 2.5. Eşleştirme
 
+> Kriterlerin 11 devre için tamamı (kalemler, ağırlıklar, eşikler, kapılar): `docs/Eslestirme-Kriterleri.md`. MVP tek pilot devreyle başlar (Kararlar Defteri D1).
+
 | ID | Gereksinim | Kabul Testi |
 |---|---|---|
 | E-01 | Kural tabanlı aday eşleşme üretme | Tür + coğrafya + zaman + miktar filtresi |
@@ -62,6 +64,8 @@
 | E-03 | Eşleşme skoru (basit ağırlıklandırma) | Skor hesaplanır ve gösterilir |
 | E-04 | Eşleşme durumu (önerildi / onay bekliyor / onaylandı / reddedildi) | Durum takibi |
 | E-05 | Manuel eşleştirme (operasyonun müdahalesi) | Yetkili rol yapabilir, gerekçe zorunlu |
+| E-06 | Anonim kart (isim/telefon gizli, şehir/tür/tutar bandı açık) | Kimlik, gizlilik sözleşmesi imzasından sonra açılır (C1) |
+| E-07 | Eleme valfi: belge seti eksikse kayıt eşleşemez | Eksik belgeyle eşleşme üretilemiyor (§0 paketi) |
 
 ### 2.6. Onay ve İletişim
 

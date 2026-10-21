@@ -1,6 +1,6 @@
-# Devre 01 — Parsiyel Taşımacılık / Hazır Yük Eşleştirme
+# Devre 05 — Parsiyel Taşımacılık / Hazır Yük Eşleştirme
 
-**Durum:** Pilot adayı (öncelikli) | **Puan:** Değerlendiriliyor
+**Durum:** Pilot adayı 1 (öncelikli) | **Puan:** 43/50 | **Numaralandırma:** Ana Envanter Devre 05 (eski kart no 01 ile karıştırılmamalı — Kararlar Defteri D8)
 
 ---
 

@@ -1,7 +1,7 @@
 # Faz 1 — Masa Protokolü ve İlk İşlem İmza Dosyası
 
 > **Statü:** Çalıştırma kılavuzu taslağı. Sözleşme metni değildir; sözleşme dili avukattan çıkar (`docs/Kararlar-Defteri.md` 🔴 B6).  
-> **Kapsam:** Faz 1 devreleri — (1) Parsiyel Tır & Hazır Yük, (2) Çek İskonto & Kredi Limiti.
+> **Kapsam:** Faz 1 devreleri — **(05) Parsiyel Tır & Hazır Yük** ve **(01) Çek İskonto & Kredi Limiti** (numaralar Ana Envanter'e göredir — Kararlar Defteri D8).
 
 ---
 
@@ -33,7 +33,7 @@
 
 ## 3. Masaya Gelen Evrak Listesi
 
-### Devre 2 — Çek & Limit
+### Devre 01 — Çek & Limit
 **Çek getiren taraf (B):**
 - [ ] Çek aslı + fotokopi (arka yüz dahil)
 - [ ] Altta yatan **cari fatura / irsaliye** (zorunlu — hatır çeki yok, gerçek ticaret var)
@@ -49,7 +49,7 @@
 - [ ] **Ortaklık / Avans Sözleşmesi** imza nüshası (avukat brifi: `docs/Avans-Ortaklik-Brifi.md`)
 - [ ] Avans çeki (varsa) — üzerinde şerh: *"İş Ortaklığı Avansıdır"*
 
-### Devre 1 — Parsiyel Tır & Yük
+### Devre 05 — Parsiyel Tır & Yük
 **Araç sahibi:** ruhsat, K belgesi, sigorta poliçesi, araç fotoğrafları  
 **Yük sahibi:** fatura/irsaliye, yükleme adresi + tonaj  
 **İki taraf:** teslim şartları yazışması (kim, nereye, ne zaman), yetki belgeleri  

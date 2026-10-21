@@ -519,8 +519,8 @@ export default function Page() {
                 {/* Priority candidates */}
                 <div className="lg:col-span-2 grid sm:grid-cols-2 gap-4">
                   {[
-                    { id: "01", name: "Parsiyel Taşımacılık / Hazır Yük", cap: "Boş dönecek araç, parsiyel kapasite", need: "Taşınacak yük, güzergâh, zaman", score: 43, max: 50, status: "Pilot adayı — öncelikli", color: "emerald", badge: "43/50" },
-                    { id: "02", name: "Atıl Üretim Kapasitesi / Sipariş", cap: "Boş üretim hattı, atıl tezgâh", need: "Fason üretim siparişi, teknik şartname", score: 31, max: 50, status: "Pilot adayı", color: "amber", badge: "31/50" },
+                    { id: "05", name: "Parsiyel Taşımacılık / Hazır Yük", cap: "Boş dönecek araç, parsiyel kapasite", need: "Taşınacak yük, güzergâh, zaman", score: 43, max: 50, status: "Pilot 1 — öncelikli", color: "emerald", badge: "43/50" },
+                    { id: "07", name: "Atıl Üretim Kapasitesi / Sipariş", cap: "Boş üretim hattı, atıl tezgâh", need: "Fason üretim siparişi, teknik şartname", score: 31, max: 50, status: "Pilot 2 — aday", color: "amber", badge: "31/50" },
                   ].map((d) => (
                     <div key={d.id} className="bg-white rounded-2xl border border-tfp-border p-5">
                       <div className="flex items-center justify-between">
@@ -546,24 +546,25 @@ export default function Page() {
                   <p className="text-xs opacity-70 mt-1">Tanımları ve kanıt durumu TEYİT GEREKLİ — tek tek kart doldurulmayı bekliyor.</p>
                   <div className="mt-4 space-y-1.5">
                     {[
-                      "03 Depo / Antrepo Alanı",
-                      "04 Soğuk Zincir Kapasitesi",
-                      "05 İş Makinesi / Ekipman",
-                      "06 Çek / Alacak Eşleştirme",
-                      "07 İhracat / İthalat Kapasitesi",
-                      "08 Toptan Alım / Ortak Tedarik",
-                      "09 Nitelikli İşgücü / Ekip",
-                      "10 Fuar / Etkinlik Alanı",
-                      "11 Dijital / Yazılım Kapasitesi",
+                      "01 Çek İskonto & Kredi Limiti",
+                      "02 Gayrimenkul (Tapu) & Kredi",
+                      "03 İş Bitirme / Yeterlilik & İş",
+                      "04 İthalat & Akreditif",
+                      "06 İhale & Teminat Mektubu",
+                      "08 Kurumsal Fatura & Likidite",
+                      "09 Gümrük / Antrepo & Köprü Fon",
+                      "10 Toplu Tedarik (Konsolidasyon)",
+                      "11 Lisanslı Depo (ELÜS) & Sanayi",
                     ].map((x) => (
-                      <div key={x} className={`flex items-center justify-between text-xs px-3 py-2 rounded-xl border ${x.includes("06") ? "bg-red-500/20 border-red-400/30" : "bg-white/10 border-white/15"}`}>
-                        <span className={x.includes("06") ? "text-red-200 font-bold" : ""}>{x}</span>
-                        {x.includes("06") && <span className="text-[10px] bg-red-500 text-white px-2 py-0.5 rounded-full font-bold">YÜKSEK RİSK</span>}
+                      <div key={x} className={`flex items-center justify-between text-xs px-3 py-2 rounded-xl border ${x.startsWith("01") || x.startsWith("08") ? "bg-red-500/20 border-red-400/30" : "bg-white/10 border-white/15"}`}>
+                        <span className={x.startsWith("01") || x.startsWith("08") ? "text-red-200 font-bold" : ""}>{x}</span>
+                        {x.startsWith("01") && <span className="text-[10px] bg-red-500 text-white px-2 py-0.5 rounded-full font-bold">AVUKAT ONAYI</span>}
+                        {x.startsWith("08") && <span className="text-[10px] bg-red-500 text-white px-2 py-0.5 rounded-full font-bold">FAKTORING SINIRI</span>}
                       </div>
                     ))}
                   </div>
                   <div className="mt-4 bg-amber-500/15 border border-amber-500/30 rounded-xl p-3 text-xs leading-5">
-                    <span className="font-bold text-amber-200">Devre 06 uyarısı:</span><span className="text-white/80"> Çek/alacak eşleştirmesi faktoring ve BDDK düzenlemeleri açısından özel inceleme gerektirir.</span>
+                    <span className="font-bold text-amber-200">Kapılar:</span><span className="text-white/80"> Devre 01 avukat + avans çeki onayı, Devre 08 rehin/teminat yapısı, Devre 03 gerçek iş ortaklığı, Devre 06 ihale mevzuatı olmadan açılmaz. Numaralar Ana Envanter'e göredir.</span>
                   </div>
                 </div>
               </div>
@@ -721,7 +722,7 @@ export default function Page() {
                   { title: "Operasyon Akışı ve Görev Sınırları", desc: "10 adım, durum makinesi, rol matrisi", badge: "EK-A", icon: "🔄", path: "docs/Operasyon-Akisi-ve-Gorev-Sinirlari.md" },
                   { title: "Faaliyet Sınırları ve Uyum Kontrol Listesi", desc: "Risk haritası, KVKK, şirket yapısı, sözleşme seti", badge: "EK-B", icon: "⚖️", path: "docs/Faaliyet-Sinirlari-ve-Uyum-Kontrol-Listesi.md" },
                   { title: "Marka Mimarisi ve Tanıtım", desc: "İsim mimarisi, site haritası, SSS, görsel ilkeler", badge: "EK-C", icon: "🎨", path: "docs/Marka-Mimarisi.md" },
-                  { title: "Devre Değerlendirme Kartları", desc: "01 Parsiyel, 02 Atıl Kapasite, 03–11 şablon", badge: "EK-D", icon: "🗂️", path: "docs/devre-kartlari/" },
+                  { title: "Devre Değerlendirme Kartları", desc: "05 Parsiyel, 07 Atıl Üretim + diğer 9 devre", badge: "EK-D", icon: "🗂️", path: "docs/devre-kartlari/" },
                   { title: "Yazılım MVP Gereksinimleri", desc: "9 modül, veri modeli, kabul testleri", badge: "EK-E", icon: "💻", path: "docs/Yazilim-MVP-Gereksinimleri.md" },
                   { title: "Pilot Şablonu", desc: "KPI, durdurma koşulları, 5 test senaryosu", badge: "EK-F", icon: "🧪", path: "docs/Pilot-Sablonu.md" },
                 ].map((doc) => (

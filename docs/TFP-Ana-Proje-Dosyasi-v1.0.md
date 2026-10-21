@@ -105,9 +105,9 @@ TFP, bu boşluğu **bilgiyi kaydeden, doğrulama durumunu izleyen ve uygun taraf
 ```
 Türk Finansal Paydaşlık (TFP)
  └── Çeki Demiri — Hizmet Markası
-      ├── Devre 01: Parsiyel Taşımacılık / Hazır Yük
-      ├── Devre 02: Atıl Üretim Kapasitesi / Doğrulanmış Sipariş
-      ├── Devre 03–11: [Tanımları ve kanıt durumu TEYİT GEREKLİ]
+      ├── Devre 05: Parsiyel Taşımacılık / Hazır Yük — PİLOT 1 (43/50)
+      ├── Devre 07: Atıl Üretim Kapasitesi / Doğrulanmış Sipariş — PİLOT 2 (31/50)
+      ├── Diğer 9 devre (01, 02, 03, 04, 06, 08, 09, 10, 11): tanımlar sabit, kartlar ve kapılar TEYİT GEREKLİ
       └── Kapasite ve İhtiyaç Eşleştirme Sistemi (yazılım)
 ```
 

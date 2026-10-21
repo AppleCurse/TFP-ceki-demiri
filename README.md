@@ -35,18 +35,18 @@ docs/
 ├── Faz1-Masa-Protokolu.md                 # Bankada gün akışı, roller, evrak listesi, 17:30, vaka kağıdı
 ├── Hizmet-ve-Gizlilik-Sozlesmesi-Brifi.md # Avukata: anonim eşleşme + 12 ay atlatma kilidi
 ├── Avans-Ortaklik-Brifi.md                # Avukata: çek & limit devresi avans çeki kurgusu
-├── Eslestirme-Kriterleri.md               # Eleme valfi, kriter/ağırlık tabloları, eşikler, otomasyon yolu
+├── Eslestirme-Kriterleri.md               # 11/11 devrenin eşleşme kalemleri + pilot ağırlık tabloları
 ├── TFP-Ana-Proje-Dosyasi-v1.0.md          # Ana belge — 15 bölüm, 10 soru, 9 teyit
 ├── Operasyon-Akisi-ve-Gorev-Sinirlari.md   # 10 adım, durum makinesi, rol matrisi
 ├── Faaliyet-Sinirlari-ve-Uyum-Kontrol-Listesi.md  # KVKK, şirket yapısı, sözleşme seti
 ├── Marka-Mimarisi.md                      # İsim mimarisi, site haritası, SSS
 ├── Yazilim-MVP-Gereksinimleri.md           # 9 modül, veri modeli, kabul testleri
 ├── Pilot-Sablonu.md                        # KPI, durdurma koşulları, 5 senaryo
-└── devre-kartlari/
+└── devre-kartlari/                         # Numaralar Ana Envanter'e göre (1 Çek … 11 ELÜS)
     ├── 00-Degerlendirme-Sablonu.md
-    ├── 01-Parsiyel-Tasimacilik.md          # Pilot adayı — 43/50
-    ├── 02-Atil-Uretim-Kapasitesi.md        # Pilot adayı — 31/50
-    └── 03-11-Diger-Devreler-Sablonu.md
+    ├── 05-Parsiyel-Tasimacilik.md          # Pilot 1 — 43/50
+    ├── 07-Atil-Uretim-Kapasitesi.md        # Pilot 2 — 31/50
+    └── Diger-Devreler-Sablonu.md           # Diğer 9 devre: envanter + risk uyarıları
 
 web/                                       # Sistem önizleme — Next.js
 ├── app/

@@ -48,12 +48,13 @@
 | # | Karar | Durum | Not |
 |---|---|---|---|
 | D1 | 11 devre **hepsi birden açılmaz**; fazlı açılış kabul edildi | ✅ | Ana Dosya §8, devre kartları |
-| D2 | **İlk pilot adayları:** 01 Parsiyel Taşımacılık (43/50) ve 02 Atıl Üretim (31/50); ikinci dalga: çek/fatura/gümrük yönü | ✅ | Devre kartları, Pilot Şablonu, README A–H |
-| D3 | Devre 8'de "alacak devralma" yok — **bankada rehin/teminatla erken ödeme** (faktoring sınırı 6361) | 🟡 | Devre 03–11 şablonuna işlenecek |
-| D4 | Devre 2'de cümle: **"Asıl borçlu B'dir; tapu sahibi yalnız ipotek müteselsilidir"** | 🟡 | Devre 03–11 şablonuna işlenecek |
-| D5 | Devre 3'te dürüstlük valfi: ihalede sorumluluk müşterek ve müteselsildir, belge kiralama yasak — ortaklık şart | 🟡 | Devre 03–11 şablonuna işlenecek; avukat onayıyla açılır |
+| D2 | **İlk pilot adayları:** Devre **05** Parsiyel Taşımacılık (43/50) ve Devre **07** Atıl Üretim (31/50); ikinci dalga: 01 çek, 08 fatura, 09 gümrük, 10 toplu tedarik | ✅ | Devre kartları, Pilot Şablonu, README A–H |
+| D3 | Devre **08**'de "alacak devralma" yok — **bankada rehin/teminatla erken ödeme** (faktoring sınırı 6361) | ✅ | `Diger-Devreler-Sablonu.md` §Risk 2 + `Eslestirme-Kriterleri.md` §1 |
+| D4 | Devre **02**'de cümle: **"Asıl borçlu B'dir; tapu sahibi yalnız ipotek müteselsilidir"** | ✅ | `Diger-Devreler-Sablonu.md` §Risk 5 + `Eslestirme-Kriterleri.md` §1 |
+| D5 | Devre **03**'te dürüstlük valfi: ihalede sorumluluk müşterek ve müteselsildir, belge kiralama yasak — ortaklık şart | ✅ | `Diger-Devreler-Sablonu.md` §Risk 3 + `Eslestirme-Kriterleri.md` §1 |
 | D6 | 11 devre vitrin kartı (SENDE / KARŞIDA / BANKADA / SENİN PAYIN) | 🟡 | Marka Mimarisi'ne 11 kart |
 | D7 | Kanıt hedefi ilk 90 gün: 10 eşleşme, 3 tamamlanmış işlem, her biri tek sayfalık anonim vaka | 🟡 | Pilot Şablonu KPI'ına işlenecek |
+| D8 | **Numaralandırma kaynğı tek:** Ana Envanter sırası (1 Çek … 5 Parsiyel … 7 Atıl Üretim … 11 ELÜS). Kart dosyaları buna göre yeniden adlandırıldı (eski 01→05, 02→07, 03–11 → diğer 9). Eski "Depo/Soğuk Zincir/Fuar" listesi Ana Envanter'de YOK — kaldırıldı | ✅ | `devre-kartlari/`, `Eslestirme-Kriterleri.md`, web, README hepsi bu sıraya uyumlu |
 
 ## E. Açık Kararlar (kimsenin tek başına kapatamayacağı)
 
